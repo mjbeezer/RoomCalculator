@@ -25,7 +25,7 @@ namespace Room_Calculator
                 double hgt = double.Parse(height);
 
                 //assume user inputs values from assignment
-                //mathmetics to calculate perimeter and area
+                //mathmetics to calculate perimeter, area and volume
                 double perimeter = wallOne * 2 + wallTwo * 2;
                 double area = wallOne * wallTwo;
                 double volume = area * hgt;
